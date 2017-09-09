@@ -1,7 +1,6 @@
 require 'openssl'
 
 class User < ApplicationRecord
-
   ITERATIONS = 20000
   DIGEST = OpenSSL::Digest::SHA256.new
 
@@ -9,6 +8,9 @@ class User < ApplicationRecord
 
   validates :email, :username, presence: true # Проверка заполненности
   validates :email, :username, uniqueness: true # Проверка уникальности
+  validates :email, email: true # Проверка формата email
+  validates :username, length: { maximum: 40 } # Проверка длины nickname
+  validates :username, format: /\A\w+\z/ # Проверка формата nickname
 
   attr_accessor :password
 

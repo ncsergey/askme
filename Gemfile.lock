@@ -43,6 +43,8 @@ GEM
     builder (3.2.3)
     byebug (9.1.0)
     concurrent-ruby (1.0.5)
+    email_validator (1.6.0)
+      activemodel
     erubi (1.6.1)
     ffi (1.9.18)
     globalid (0.4.0)
@@ -126,6 +128,7 @@ PLATFORMS
 
 DEPENDENCIES
   byebug (~> 9.1)
+  email_validator (~> 1.6)
   jquery-rails (~> 4.3, >= 4.3.1)
   listen (>= 3.0.5, < 3.2)
   rails (~> 5.1.4)
