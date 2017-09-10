@@ -5,6 +5,7 @@ gem 'sqlite3'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 
 gem 'email_validator', '~> 1.6'
+# gem 'russian', '~> 0.6.0'
 
 group :development, :test do
   gem 'byebug', '~> 9.1'
