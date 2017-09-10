@@ -17,24 +17,3 @@
 !/log/.keep
 !/tmp/.keep
 /.idea/*
-
-/node_modules
-/yarn-error.log
-
-.byebug_history
-Будет удалено .gitignore
-Будет удалено Gemfile
-Будет удалено Gemfile.lock
-Будет удалено README.md
-Будет удалено Rakefile
-Будет удалено app/
-Будет удалено bin/
-Будет удалено config.ru
-Будет удалено config/
-Будет удалено db/
-Будет удалено lib/
-Будет удалено log/.keep
-Будет удалено package.json
-Будет удалено public/
-Будет удалено tmp/.keep
-Будет удалено vendor/
